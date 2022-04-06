@@ -1,0 +1,900 @@
+html,
+body {
+    padding: 0;
+    margin: 0px;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.header {
+    background-color: #141414;
+    height: 20px;
+    margin-top: 0;
+    padding: 15px 15px 15px 0px;
+}
+
+.container {
+    width: 1420px;
+    margin: 0px auto;
+    vertical-align: top;
+}
+
+.headerpic {
+    float: left;
+    margin-top: 0;
+    padding: 0;
+}
+
+.right_header {
+    float: right;
+    margin-top: 0px;
+    padding: 0;
+    margin-right: 20px;
+}
+
+.rightpic {
+    float: right;
+    margin-top: 0;
+    padding: 0;
+}
+
+.downdiv {
+    float: right;
+    margin-left: 5px;
+}
+
+.header_logo_link {
+    margin-right: 50px;
+}
+
+.header_logo {
+    height: 20px;
+    width: auto;
+    margin-top: 0px;
+    margin-left: 0;
+}
+
+.rightheader_logo {
+    height: 20px;
+    width: auto;
+    margin-top: 0px;
+
+}
+
+.header_link {
+    color: #efefef;
+    padding: 0px 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header_link:hover {
+    color: gray;
+}
+
+.selected {
+    color: #fff;
+}
+
+.headericon_link {
+    color: #efefef;
+    padding: 0px 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.headericon_link:hover {
+    color: #efefef;
+}
+
+.down {
+    color: #efefef;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.down:hover {
+    color: #efefef;
+}
+
+.moviesugg {
+    margin-top: 0px;
+    background-image: url('img/seriously-single-wide.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+.descrip {
+    margin-top: 0;
+    font-size: 23px;
+    color: #fff;
+    width: 35%;
+    font-weight: 400;
+    padding-top: 500px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .45);
+}
+
+.playbutton {
+    margin-left: 0px;
+    margin-right: 8px;
+    padding: 10px 20px;
+    background-color: white;
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.playbutton:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+
+}
+
+.infobutton {
+    margin-left: 0px;
+    margin-right: 8px;
+    padding: 10px 20px;
+    background-color: rgba(85, 76, 76, 0.671);
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.infobutton:hover {
+    background-color: rgba(156, 156, 156, 0.548);
+
+}
+
+.playbuttoncontent {
+    color: black;
+    padding: 5px
+}
+
+.infobuttoncontent {
+    color: white;
+    padding: 5px
+}
+
+.agelimit {
+    float: right;
+    margin-left: 0px;
+    padding: 10px 20px;
+    background-color: rgba(83, 68, 68, 0.671);
+    width: 60px;
+    height: 15px;
+    color: white;
+}
+
+.line {
+    float: right;
+    margin-left: 0px;
+    padding: 10px 1px;
+    background-color: rgba(230, 217, 217, 0.788);
+    width: 1px;
+    height: 15px;
+}
+
+.moresuggestions {
+    background-color: #141414;
+}
+
+.continuewatching {
+    height: 300px;
+    width: 100%;
+}
+
+.titre {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    padding-left: 0px;
+    padding-top: 20px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.continue {
+    padding: 0px 15px 0px 0px;
+    margin-top: 10px;
+    height: 200px;
+    width: 330px;
+}
+
+.footer {
+    background-color: #141414;
+    height: 500px;
+    width: 100%;
+
+}
+
+.footercontainer {
+    width: 1220px;
+    margin: 0px auto;
+    padding: 100px 0 0 0;
+}
+
+.socialmedia {
+    color: #808080;
+    cursor: pointer;
+    padding: 5px 25px 5px 0px;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+
+.linkline {
+    margin-top: 20px;
+}
+
+.footerlinkspan {
+    display: inline-block;
+    width: 200px;
+    padding-right: 100px;
+}
+
+.footerlink {
+    color: #808080;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: left;
+    width: 200px;
+}
+
+.footerlink:hover {
+    color: #808080;
+    text-decoration: underline;
+}
+
+.servicebuttonlink {
+    display: inline-block;
+    color: #808080;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border: 1px solid #808080;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.servicebuttonlink:hover {
+    color: white;
+}
+
+.copyright {
+    color: #808080;
+    font-size: 15px;
+}
+
+.hero {
+    background-color: #141414;
+    height: 100%;
+    width: 100%;
+}
+
+.icon {
+    color: white;
+}
+
+.title {
+    padding: 0 15px;
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.value {
+    padding: 0 10px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.viewing {
+    padding: 30px;
+    height: auto;
+    width: 1200px
+}
+
+.moviename {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.rating {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.descriptiondiv {
+    padding: 20px 50px;
+}
+
+.description {
+    display: inline;
+    margin-top: 0;
+    font-size: 23px;
+    color: #fff;
+    width: 70%;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .45);
+}
+
+.trailerandmovie {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.trailer {
+    float: right;
+    padding: 15px;
+    margin: 0 90px;
+    display: inline;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: rgba(85, 76, 76, 0.671);
+    width: 80px;
+    height: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.trailervalue {
+    padding: 0px;
+    color: white;
+    font-size: 20px;
+}
+
+.trailerlink {
+    text-decoration: none;
+}
+
+.articles {
+    background-color: #141414;
+    height: 600px;
+    width: 100%;
+}
+
+.reacts {
+    padding: 20px 0;
+    width: 400px;
+
+}
+
+.reactbutton {
+    padding: 10px 20px;
+    background-color: rgba(85, 76, 76, 0.671);
+    width: 50px;
+    height: 20px;
+    margin: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.number {
+    color: white;
+    margin-left: 5px;
+}
+
+.commentsection {
+    width: 900px;
+    float: left;
+}
+
+.comment {
+    padding: 20px;
+}
+
+.profilepic {
+    height: 30px;
+    width: auto;
+    float: left;
+}
+
+.username {
+    color: aliceblue;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.commentcontent {
+    margin: 10px 15px;
+    color: #efefef;
+    font-size: 20px;
+    width: 70%;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .45);
+}
+
+.suggestions {
+    float: right;
+}
+
+.suggestionstitle {
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.thumbnail {
+    width: 200px;
+    height: auto;
+    padding: 15px;
+}
+
+.moviedetails {
+    float: right;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 15px;
+    border: solid 2px white;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+.movietitle {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+.watchnow {
+    display: none;
+}
+
+.main {
+    background-image: url('img/netflix-film-serie-astuce.jpg');
+    background-size: cover;
+    height: 750px;
+    margin: 0;
+}
+
+.form {
+    border: 2px solid rgb(177, 167, 167);
+    background-color: #b8b3b35d;
+    position: absolute;
+    right: 30px;
+    height: 600px;
+    width: 700px;
+    margin: 0 15;
+    padding: 15px;
+}
+
+.myright {
+    position: absolute;
+    left: 30px;
+    height: 600px;
+    width: 600px;
+    margin: 0 15;
+    padding: 0 15px;
+}
+
+.login-container {
+    padding-top: 50px;
+}
+
+.netflixlogo {
+    width: 100px;
+    height: auto;
+    padding: 0px 30px;
+    margin: 0;
+}
+
+.motto {
+    margin-top: 0;
+    font-size: 60px;
+    color: #fff;
+    width: 100%;
+    font-weight: 400;
+    padding: 200px 5px 0px 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .45);
+}
+
+.formcontainer {
+    height: 550px;
+    width: 600px;
+    margin: 25px 50px;
+}
+
+.textformat {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.fill {
+    background-color: rgba(0, 0, 0, 0.575);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 500px;
+    height: 30px;
+    border: solid 2px white;
+    border-radius: 5px;
+    margin: 5px 40px 10px;
+    padding: 5px;
+}
+
+.signinbutton {
+    display: block;
+    margin: 5px auto;
+    padding: 15px 30px;
+    background-color: rgb(204, 128, 128);
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    border: rgb(109, 53, 53) solid 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signinwith {
+    color: rgb(223, 213, 213);
+    padding: 10px 30px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.socials {
+    width: 200px;
+    margin: 0 auto 20px;
+}
+
+.help {
+    cursor: pointer;
+    text-align: left;
+    font-size: 25px;
+}
+
+.searchmain {
+    width: auto;
+    height: 500px;
+    background-color: #141414;
+}
+
+.searchbox {
+    position: absolute;
+    right: 20px;
+    width: 400px;
+    height: 25px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid white;
+    background-color: #b8b3b35d;
+    color: white;
+    cursor: pointer;
+}
+
+.results {
+    clear: right;
+}
+
+.resulttext {
+    padding: 30px 30px 30px 0px;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+}
+
+.resultmovie {
+    margin-top: 30px auto;
+    width: 1000px;
+}
+
+.continue:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .header {
+        height: auto;
+        padding: 0px;
+    }
+
+    .container {
+        width: 90%;
+        margin: 0px;
+        padding: 15px 0px 15px 15px;
+    }
+
+    .header_link {
+        display: block;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .headerpic {
+        position: absolute;
+        left: 30px;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .right_header {
+        width: 55%;
+        float: unset;
+        margin-top: 0px;
+        padding: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .rightpic {
+        display: inline;
+        float: unset;
+        margin-right: 10px;
+    }
+
+    .headericon_link {
+        padding: 0px 15px 0px 0px;
+    }
+
+    .downdiv {
+        float: unset;
+        display: inline;
+        margin-left: 5px;
+    }
+
+    .searchmain {
+        width: auto;
+        height: auto;
+    }
+
+    .searchbox {
+        position: relative;
+        right: unset;
+        width: 70%;
+        height: 25px;
+        margin: 10px 5px;
+        padding: 10px;
+        text-align: center;
+        border: 2px solid white;
+        background-color: #b8b3b35d;
+        color: white;
+        cursor: pointer;
+    }
+
+    .footer {
+        height: auto;
+        width: auto;
+
+    }
+
+    .footercontainer {
+        width: 90%;
+        margin: 0px auto;
+        padding: 15px 0 15px 15px;
+    }
+
+    .main {
+        background-size: cover;
+        height: 100%;
+        margin: 0;
+    }
+
+    .form {
+        border: 2px solid rgb(177, 167, 167);
+        background-color: #b8b3b35d;
+        position: unset;
+        height: auto;
+        width: 70%;
+        margin: 50px auto;
+        padding: 15px;
+    }
+
+    .myright {
+        position: absolute;
+        left: 0px;
+        height: auto;
+        width: auto;
+        margin: 0;
+        padding: 0px;
+    }
+
+    .netflixlogo {
+        width: 100px;
+        height: auto;
+        padding: 0px 30px;
+        margin: 0;
+    }
+
+    .motto {
+        display: none;
+    }
+
+    .formcontainer {
+        height: 100%;
+        width: 100%;
+        margin: 25px auto;
+    }
+
+    .fill {
+        width: 70%;
+        height: 30px;
+        margin: 10px auto;
+        padding: 5px;
+    }
+
+
+    .socials {
+        width: 100%;
+        margin: 0 15px 20px;
+    }
+
+    .help {
+        cursor: pointer;
+        text-align: left;
+        font-size: 25px;
+    }
+
+    .moviesugg {
+        margin-top: 0px;
+        background-image: url('img/seriously-single-wide.jpg');
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width: auto;
+    }
+
+    .descrip {
+        background-color: #b8b3b35d;
+        margin-top: 0;
+        font-size: 13px;
+        color: #fff;
+        width: 60%;
+        border: solid 2px white;
+        border-radius: 5px;
+        font-weight: 400;
+        padding: 0px;
+        margin-top: 110px;
+        margin-bottom: 5px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, .45);
+    }
+
+    .playbutton {
+        margin-left: 0px;
+        margin-right: 8px;
+        padding: 3px;
+        width: auto;
+        height: 7px;
+        margin-bottom: 5px;
+    }
+
+    .infobutton {
+        margin-left: 0px;
+        margin-right: 8px;
+        padding: 3px;
+        width: auto;
+        height: 8px;
+    }
+
+    .agelimit {
+        float: unset;
+        position: absolute;
+        right: 0;
+        margin-left: 0px;
+        padding: 2px;
+        background-color: rgba(83, 68, 68, 0.671);
+        width: 10%;
+        height: 10px;
+
+        font-size: 10px;
+    }
+
+    .line {
+        float: unset;
+        position: absolute;
+        right: 52px;
+        padding: 2px 1px;
+        width: 1px;
+        height: 10px;
+    }
+
+    .continuewatching {
+        height: auto;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .viewing {
+        padding: 0px;
+        height: auto;
+        width: 80%;
+        margin: auto;
+    }
+
+
+    .trailerandmovie {
+        margin-top: 50px;
+        margin: 0px;
+    }
+
+    .trailer {
+        float: unset;
+        padding: 15px;
+        margin: 10px auto;
+        display: inline-block;
+        padding: 10px 10px;
+        margin-bottom: 10px;
+        background-color: rgba(85, 76, 76, 0.671);
+        width: 30%;
+        height: 20px;
+        text-align: center;
+    }
+
+    .trailervalue {
+        padding: 0px;
+        color: white;
+        font-size: 20px;
+    }
+
+    .trailerlink {
+        text-decoration: none;
+    }
+
+    .reacts {
+        padding: 20px 0;
+        width: 100%;
+
+    }
+
+    .reactbutton {
+        padding: 10px 20px;
+        width: 80%;
+        height: 20px;
+        margin: 20px 0px 20px 20px;
+        margin-top: 30px;
+    }
+
+    .commentsection {
+        width: auto;
+        float: unset;
+    }
+
+    .comment {
+        padding: 20px 0px;
+    }
+
+    .articles {
+        height: 100%;
+    }
+
+    .commentcontent {
+        margin: 10px 0px;
+        font-size: 20px;
+        width: 70%;
+        font-weight: 400;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, .45);
+    }
+
+    .suggestions {
+        float: unset;
+    }
+
+    .thumbnail {
+        width: 50%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .moviedetails {
+        display: inline-block;
+        float: unset;
+        position: absolute;
+        right: 5px;
+        padding: 5px;
+        margin-left: 5px;
+    }
+}
